@@ -21,6 +21,87 @@
       margin: 0;
     }
     nav {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recon Repairs</title>
+  <style>
+    :root { --bg:#f5f5f5; --ink:#222; --ink-muted:#444; --dark:#1b1b1b; }
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin:0; background:var(--bg); color:var(--ink); }
+
+    header { background:var(--dark); color:#fff; padding:20px 0; text-align:center; }
+    h1 { margin:0; }
+    nav { text-align:center; margin:15px 0; }
+    nav a { color:var(--dark); text-decoration:none; margin:0 15px; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+
+    /* NEW: hero */
+    .hero {
+      max-width:1100px; margin:18px auto; padding:18px;
+      display:grid; gap:18px;
+      grid-template-columns: 1.2fr 1fr;
+      align-items:center;
+    }
+    .hero .copy {
+      background:#fff; border-radius:12px; padding:22px;
+      box-shadow:0 2px 10px rgba(0,0,0,.06);
+    }
+    .hero h2 { margin:0 0 8px; }
+    .hero p { margin:6px 0; color:var(--ink-muted); }
+    .hero .cta {
+      display:inline-block; margin-top:12px; padding:12px 18px;
+      background:var(--dark); color:#fff; text-decoration:none; border-radius:8px; font-weight:bold;
+    }
+    .hero .cta:hover { opacity:.9; }
+    .hero .imgwrap {
+      border-radius:12px; overflow:hidden; background:#ddd;
+      min-height:220px; display:flex; align-items:center; justify-content:center;
+    }
+    .hero img { width:100%; height:100%; object-fit:cover; display:block; }
+
+    main { max-width:900px; margin:0 auto; padding:30px; text-align:center; }
+    footer { margin-top:40px; padding:15px; background:var(--dark); color:#fff; text-align:center; }
+
+    /* Small screens */
+    @media (max-width: 800px) {
+      .hero { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recon Repairs</h1>
+    <p>Veteran-Owned. Silicon-Strong.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- NEW: Low-key Hero Section -->
+  <section class="hero">
+    <div class="copy">
+      <h2>PC & Laptop Repair — Spring, TX</h2>
+      <p>Fast, reliable fixes for home and small business. Clear communication, honest quotes, and practical solutions.</p>
+      <p><strong>Call:</strong> (XXX) XXX-XXXX &nbsp; | &nbsp; <strong>Email:</strong> info@reconrepairs.org</p>
+      <a class="cta" href="contact.html">Request Service</a>
+    </div>
+    <div class="imgwrap">
+      <!-- Swap this image when ready -->
+      <!-- If you don't have an image yet, this gray box will just sit quietly. -->
+      <img src="assets/img/hero.jpg" alt="Clean workbench with a laptop open for repair" onerror="this.style.display='none';this.parentElement.style.minHeight='220px';">
+    </div>
+  </section>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>Serving Spring, Texas & surrounding areas. Windows • Linux • Ha
       margin: 15px 0;
     }
     nav a {
