@@ -13,11 +13,11 @@ Based in Spring, Texas — proudly serving users who want their machines done ri
 
 ## 🧰 What We Do
 
-- Laptop & PC Repair (Windows, Linux)
-- Virus Removal & System Tune-Ups
-- Linux Dual-Boot Setup & OS Recovery
-- RAM/SSD Upgrades & Diagnostics
-- Personalized Tech Consulting
+                                                     - Laptop & PC Repair (Windows, Linux)
+                                                     - Virus Removal & System Tune-Ups
+                                                     - Linux Dual-Boot Setup & OS Recovery
+                                                     - RAM/SSD Upgrades & Diagnostics
+                                                     - Personalized Tech Consulting
 
 ---
 
